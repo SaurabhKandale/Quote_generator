@@ -52,7 +52,7 @@ const QuoteComp = () => {
     }
     else{
         return (
-            <div className="pt-16">
+            <div className="pt-8 md:pt-16">
                 <Quotecard content={data.content} author={data.author} bk={false} AddBookmark={AddBookmark} />
                 <div className="block items-center sm:w-full md:w-3/4 lg:w-1/2 mx-auto pt-8">
                     <select label="Select Version" className="block w-3/4 md:w-1/2 items-center mx-auto outline-0 p-2 px-4 rounded-lg border-2 border-black" value={tag} onChange={TagFun}>
